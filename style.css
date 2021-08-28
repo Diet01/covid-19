@@ -1,0 +1,163 @@
+.logo{
+    margin-left: 250px;
+}
+.header_box{
+    width: 1200;
+    height: 1000px;
+    border: 5px solid red;
+    font-family: Inter;
+}
+.navbar{
+    width: 40%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    margin-left: 300px;
+}
+.home{
+    color: #006FF9;
+
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    margin-left: 20px;
+    display: inline-block;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 17px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.img{
+    margin-left: 900px;
+    margin-top: -130px;
+}
+.avatar_img{
+    position: absolute;
+width: 499.41px;
+height: 560.5px;
+left: 735.29px;
+border-radius: 50%;
+top: 101px;
+background: #006FF9;
+margin-left: 270px;
+}
+#cantact{
+width: 108px;
+height: 38px;
+margin-left: 1440px;
+margin-top: -80px;
+position: absolute;
+color: rgb(0, 0, 0);
+background: #FFFFFF;
+border-radius: 4px;
+text-decoration: none;
+text-align: center;
+font-family: "Inter" sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+}
+.shop{
+    color: rgb(255, 0, 0);
+ position: absolute;
+margin-left: 1370px;
+margin-top: -80px;
+
+width: 40px;
+height: 40px;
+border-radius: 50px;
+position: absolute;
+background: #FFFFFF;
+}
+.shop_img{
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 3px;
+}
+.h1{
+    margin-top: -500px;
+    margin-left: 400px;
+    font-family: "Inter" sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 12px;
+/* identical to box height, or 86% */
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+/* 1TCA/Blue */
+
+color: #006FF9;
+}
+.h2{
+    margin-left: 400px;
+    font-family: "Inter" sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color: #212529;
+}
+.h3{
+    margin-left: 400px;
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+color: #6F7074;
+}
+.click_one{
+    width: 150px;
+    height: 50px;
+    background: #006FF9;
+    border-radius: 5px;
+margin-left: 430px;
+font-family: "Inter" sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 55px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+display: inline-block;
+margin-top: 50px;
+}
+.click_one:hover{
+    box-shadow: 0 2px 10px rgba(5, 101, 226, 0.5) !important;
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+}
+.click_on{
+    color: white;
+}
